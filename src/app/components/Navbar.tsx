@@ -8,7 +8,7 @@ import Link from "next/link";
 
 
 
-export default function (){
+export default function Navbar (){
     return(
         <div>
 
@@ -22,7 +22,7 @@ export default function (){
 <div className="w-[1258px] h-[41px] bg-white flex items-center justify-between ml-14">
 <Image src="/furniro.png" alt="" width={130} height={30} className="ml-16"/>
 <ul className="flex space-x-8">
-    <li>Home</li>
+    <li><Link href="/">Home </Link></li>
     <li><Link href="/shop">Shop</Link></li>
     <li><Link href="/blog">Blog</Link></li>
     <li><Link href="/contact">Contact</Link></li>
