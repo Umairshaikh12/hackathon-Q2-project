@@ -1,8 +1,4 @@
 import Image from "next/image"
-import { IoMdContacts } from "react-icons/io";
-import { HiMagnifyingGlass } from "react-icons/hi2";
-import { CiHeart } from "react-icons/ci";
-import { FiShoppingCart } from "react-icons/fi";
 import Link from "next/link";
 
 
