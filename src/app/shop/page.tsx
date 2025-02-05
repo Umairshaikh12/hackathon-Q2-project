@@ -47,7 +47,6 @@ export default function Shop(){
         <Image src="/respira.png" alt="" width={230} height={100}/>
        </div>
 
-       {/* <Image src="/Frame.png" alt="" width={1000} height={1} className="ml-52"/> */}
 
 
 
