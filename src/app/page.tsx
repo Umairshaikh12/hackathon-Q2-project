@@ -35,7 +35,7 @@ export default function Home() {
 
   // Handle search query change
   useEffect(() => {
-    let result = products.filter((product) => {
+    const result = products.filter((product) => {
       return (
         (product.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
           product.description?.toLowerCase().includes(searchQuery.toLowerCase())) &&

@@ -1,6 +1,10 @@
-import { useRouter } from "next/router";
+interface PaginationProps {
+  currentPage: number;
+  totalPages: number;
+  onPageChange: (page: number) => void;
+}
 
-const Pagination = ({ currentPage, totalPages, onPageChange }: any) => {
+const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPageChange }) => {
   const handlePrev = () => {
     if (currentPage > 1) onPageChange(currentPage - 1);
   };
